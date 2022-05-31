@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name":    "Chess Openings Live Book",
+    "version": "1.0.1",
+    "description": "look into my crystal ball, padawan",
+    "content_scripts": [{
+        "matches": ["https://*/*"],
+        "js":      ["content.js"]
+    }],
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_title": "Chess Openings :D"
+    },
+
+    "permissions": ["storage","tabs","activeTab"]
+}
