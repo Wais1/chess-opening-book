@@ -4,7 +4,7 @@
     "version": "1.0.1",
     "description": "look into my crystal ball, padawan",
     "content_scripts": [{
-        "matches": ["https://*/*"],
+        "matches": ["https://*.lichess.org/*"],
         "js":      ["content.js"]
     }],
     "browser_action": {
